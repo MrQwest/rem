@@ -1,3 +1,9 @@
-# HTML Flavoured Boilerplate
+# REM ~ Random Excuse Generator
 
-Just a starting point for future HTML site builds.
+Back in December 2012, I wanted to make a really simple php script that would output a random excuse. It's almost a joke thing in our office, who can come up with the silliest excuse to silly questions.
+
+I literally spent hours looking at other scripts, reading StackOverflow or googling how to do such a thing before concocting a horrendous amount of code, which ultimately didn't work.
+
+This evening, after a bit of reading up on PHP, I thought I'd give it another go...
+
+8 minutes later, and REM is working, albeit very simply.

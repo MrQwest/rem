@@ -31,7 +31,14 @@
 	<?php 
 	// lets throw some excuses into an array
 	
-	$excuses = array('The Dog ate it', 'the neighbours dog ate it');
+	$excuses = array(
+		'The Dog ate it',
+		'the neighbours dog ate it', 
+		'the rapture happened',
+		'there is no spoon',
+		'it must have slipped my memory',
+		'fuck it, fuck you'
+		);
 
 	$length = count($excuses) - 1;
 
