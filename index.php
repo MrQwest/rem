@@ -9,7 +9,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>REM ~ Random Excuse Generator</title>
 
 	<!-- If JS is available, changes <html> class to js -->
 	<script>
@@ -24,6 +24,22 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 </head>
 <body>
+
+	<h1>Random Excuse Generator</h1>
+	<p class="about">A silly little thing made by <a href="http://twitter.com/mrqwest">@mrqwest</a> as a play around with PHP. Let's see how much I remember!</p>
+
+	<?php 
+	// lets throw some excuses into an array
+	
+	$excuses = array('The Dog ate it', 'the neighbours dog ate it');
+
+	$length = count($excuses) - 1;
+
+	$rand = rand(0,$length);
+
+	echo $excuses[$rand];
+
+	?>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
